@@ -11,7 +11,7 @@ AND lozinka='".$lozinka."'";
 
 $rezultat = mysqli_query($konekcija, $sql);
 if (mysqli_num_rows($rezultat) == 0) {
-    print("Greška korisnik ne postoji u bazi.");
+    print("<b>Greška</b> korisnik ne postoji u bazi.");
 } else {
     print ("Uspješno ste prijavljeni na sustav.");
 }
