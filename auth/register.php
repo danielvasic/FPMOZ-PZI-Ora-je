@@ -1,6 +1,6 @@
 <?php
 
-include('db.php');
+include('../db.php');
 
 $ime = $_POST['ime'];
 $prezime = $_POST['prezime'];

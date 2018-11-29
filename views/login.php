@@ -1,16 +1,16 @@
 <div class="row align-items-center h-100">
-	<div class="col-md-6 offset-md-4">
+	<div class="col-md-6 offset-md-3">
 		<h2>Prijavite se na sustav</h2>
 		<hr />
 		<ul class="nav nav-tabs">
 			<li class="nav-item">
-				<a class="nav-link active" href="login.html">Prijava na sustav</a>
+				<a class="nav-link active" href="?view=login">Prijava na sustav</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="register.html">Registracija na sustav</a>
-                </div>		</li>
+			<li>
+				<a class="nav-link" href="?view=register">Registracija na sustav</a>
+            </li>
 		</ul>
-		<form method="POST" action="php/login.php">
+		<form method="POST" action="auth/login.php">
 			<div class="form-group">
 				<label for="korisnicko_ime">Korisničko ime</label>
 				<div class="input-group">

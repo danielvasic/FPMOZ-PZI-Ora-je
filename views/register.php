@@ -4,13 +4,13 @@
 		<hr />
 		<ul class="nav nav-tabs">
 			<li class="nav-item">
-				<a class="nav-link" href="login.html">Prijava na sustav</a>
+				<a class="nav-link" href="?view=login">Prijava na sustav</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link active" href="register.html">Registracija na sustav</a>
+				<a class="nav-link active" href="?view=register">Registracija na sustav</a>
 			</li>
-            <div class="container">		</ul>
-		<form method="POST" action="php/register.php">
+        </ul>
+		<form method="POST" action="auth/register.php">
 			<div class="form-group">
 				<label for="ime">Ime</label>
 				<div class="input-group">
